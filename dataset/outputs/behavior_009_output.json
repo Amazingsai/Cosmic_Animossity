@@ -1,0 +1,25 @@
+{
+  "id": "behavior_009",
+  "dataset_type": "synthetic_demo",
+  "source": "hand-authored illustrative example; not a recorded LLM response",
+  "enemy_type": "ExampleEnemy",
+  "decision_policy": "first_matching_rule",
+  "rules": [
+    {
+      "priority": 1,
+      "condition": "player_distance <= 500 and attack_ready == true",
+      "action": "attack_player"
+    },
+    {
+      "priority": 2,
+      "condition": "player_distance <= 500 and attack_ready == false",
+      "action": "reposition"
+    },
+    {
+      "priority": 3,
+      "condition": "player_distance > 500",
+      "action": "move_toward_player"
+    }
+  ],
+  "implementation_status": "not_implemented_or_tested"
+}

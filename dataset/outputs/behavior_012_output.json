@@ -1,0 +1,25 @@
+{
+  "id": "behavior_012",
+  "dataset_type": "synthetic_demo",
+  "source": "hand-authored illustrative example; not a recorded LLM response",
+  "enemy_type": "ExampleEnemy",
+  "decision_policy": "first_matching_rule",
+  "rules": [
+    {
+      "priority": 1,
+      "condition": "distance_from_spawn > 1500",
+      "action": "return_to_spawn"
+    },
+    {
+      "priority": 2,
+      "condition": "distance_from_spawn <= 1500 and player_detected == true",
+      "action": "engage_player"
+    },
+    {
+      "priority": 3,
+      "condition": "distance_from_spawn <= 1500 and player_detected == false",
+      "action": "guard_area"
+    }
+  ],
+  "implementation_status": "not_implemented_or_tested"
+}

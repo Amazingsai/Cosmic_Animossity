@@ -1,0 +1,9 @@
+{
+  "id": "behavior_002",
+  "dataset_type": "synthetic_demo",
+  "game": "Cosmic Animosity",
+  "prompt": "Make an enemy retreat when its health falls below 25%, otherwise approach the player.",
+  "available_state_variables": [
+    "enemy_health_percent"
+  ]
+}

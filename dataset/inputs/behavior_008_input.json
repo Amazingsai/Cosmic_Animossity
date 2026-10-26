@@ -1,0 +1,9 @@
+{
+  "id": "behavior_008",
+  "dataset_type": "synthetic_demo",
+  "game": "Cosmic Animosity",
+  "prompt": "Make an enemy circle around the player at medium distance and attack when close.",
+  "available_state_variables": [
+    "player_distance"
+  ]
+}

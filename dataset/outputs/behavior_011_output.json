@@ -1,0 +1,25 @@
+{
+  "id": "behavior_011",
+  "dataset_type": "synthetic_demo",
+  "source": "hand-authored illustrative example; not a recorded LLM response",
+  "enemy_type": "ExampleEnemy",
+  "decision_policy": "first_matching_rule",
+  "rules": [
+    {
+      "priority": 1,
+      "condition": "player_speed > 700",
+      "action": "ranged_attack"
+    },
+    {
+      "priority": 2,
+      "condition": "player_speed <= 700 and player_distance <= 450",
+      "action": "melee_attack"
+    },
+    {
+      "priority": 3,
+      "condition": "player_speed <= 700 and player_distance > 450",
+      "action": "move_toward_player"
+    }
+  ],
+  "implementation_status": "not_implemented_or_tested"
+}

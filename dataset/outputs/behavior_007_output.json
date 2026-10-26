@@ -1,0 +1,20 @@
+{
+  "id": "behavior_007",
+  "dataset_type": "synthetic_demo",
+  "source": "hand-authored illustrative example; not a recorded LLM response",
+  "enemy_type": "ExampleEnemy",
+  "decision_policy": "first_matching_rule",
+  "rules": [
+    {
+      "priority": 1,
+      "condition": "incoming_projectile_detected == true",
+      "action": "dodge"
+    },
+    {
+      "priority": 2,
+      "condition": "incoming_projectile_detected == false",
+      "action": "continue_combat"
+    }
+  ],
+  "implementation_status": "not_implemented_or_tested"
+}

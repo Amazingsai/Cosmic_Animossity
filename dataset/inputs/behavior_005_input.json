@@ -1,0 +1,9 @@
+{
+  "id": "behavior_005",
+  "dataset_type": "synthetic_demo",
+  "game": "Cosmic Animosity",
+  "prompt": "Make an enemy switch to an aggressive attack when it has recently taken damage, otherwise use normal combat.",
+  "available_state_variables": [
+    "recently_damaged"
+  ]
+}

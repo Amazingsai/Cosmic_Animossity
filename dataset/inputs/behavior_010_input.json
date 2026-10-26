@@ -1,0 +1,9 @@
+{
+  "id": "behavior_010",
+  "dataset_type": "synthetic_demo",
+  "game": "Cosmic Animosity",
+  "prompt": "Make an enemy defend when health is below 40%, but otherwise fight normally.",
+  "available_state_variables": [
+    "enemy_health_percent"
+  ]
+}

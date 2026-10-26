@@ -1,0 +1,9 @@
+{
+  "id": "behavior_007",
+  "dataset_type": "synthetic_demo",
+  "game": "Cosmic Animosity",
+  "prompt": "Make an enemy dodge when a player projectile is approaching; otherwise continue combat.",
+  "available_state_variables": [
+    "incoming_projectile_detected"
+  ]
+}

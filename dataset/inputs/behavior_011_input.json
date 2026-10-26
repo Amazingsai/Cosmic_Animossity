@@ -1,0 +1,10 @@
+{
+  "id": "behavior_011",
+  "dataset_type": "synthetic_demo",
+  "game": "Cosmic Animosity",
+  "prompt": "Make an enemy use a ranged attack when the player is moving quickly and a close-range attack when the player is slow and nearby.",
+  "available_state_variables": [
+    "player_distance",
+    "player_speed"
+  ]
+}

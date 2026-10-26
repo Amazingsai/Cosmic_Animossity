@@ -1,0 +1,10 @@
+{
+  "id": "behavior_006",
+  "dataset_type": "synthetic_demo",
+  "game": "Cosmic Animosity",
+  "prompt": "Make an enemy patrol when no player is detected, chase the player when detected but far away, and attack up close.",
+  "available_state_variables": [
+    "player_detected",
+    "player_distance"
+  ]
+}

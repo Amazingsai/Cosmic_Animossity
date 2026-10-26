@@ -1,0 +1,10 @@
+{
+  "id": "behavior_009",
+  "dataset_type": "synthetic_demo",
+  "game": "Cosmic Animosity",
+  "prompt": "Make an enemy attack only when its attack cooldown is ready and the player is in range; otherwise reposition.",
+  "available_state_variables": [
+    "attack_ready",
+    "player_distance"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "behavior_012",
+  "dataset_type": "synthetic_demo",
+  "game": "Cosmic Animosity",
+  "prompt": "Make an enemy return to its spawn location if it wanders more than 1500 units away; otherwise engage the player if detected.",
+  "available_state_variables": [
+    "distance_from_spawn",
+    "player_detected"
+  ]
+}

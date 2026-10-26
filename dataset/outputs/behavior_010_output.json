@@ -1,0 +1,20 @@
+{
+  "id": "behavior_010",
+  "dataset_type": "synthetic_demo",
+  "source": "hand-authored illustrative example; not a recorded LLM response",
+  "enemy_type": "ExampleEnemy",
+  "decision_policy": "first_matching_rule",
+  "rules": [
+    {
+      "priority": 1,
+      "condition": "enemy_health_percent < 40",
+      "action": "defend"
+    },
+    {
+      "priority": 2,
+      "condition": "enemy_health_percent >= 40",
+      "action": "normal_attack"
+    }
+  ],
+  "implementation_status": "not_implemented_or_tested"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "behavior_004",
+  "dataset_type": "synthetic_demo",
+  "game": "Cosmic Animosity",
+  "prompt": "Make an enemy chase the player when visible and search the last known location when the player is not visible.",
+  "available_state_variables": [
+    "can_see_player"
+  ]
+}
