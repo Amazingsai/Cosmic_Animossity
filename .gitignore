@@ -1,0 +1,12 @@
+
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Temporary editor files
+.vs/
+*.sln
+
+*.log
